@@ -68,7 +68,7 @@ function Contact() {
           </div>
         </div>
         <form
-          netlify
+          netlify="true"
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
@@ -87,6 +87,7 @@ function Contact() {
               type="text"
               id="name"
               name="name"
+              value={name} // Add value attribute to control the input
               className="w-full bg-white rounded border border-gray-700 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-500 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
             />
@@ -99,6 +100,7 @@ function Contact() {
               type="email"
               id="email"
               name="email"
+              value={email}
               className="w-full bg-white rounded border border-gray-700 focus:border-yellow-500  focus:ring-2 focus:ring-yellow-500 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -113,6 +115,7 @@ function Contact() {
             <textarea
               id="message"
               name="message"
+              value={message}
               className="w-full bg-white rounded border border-gray-700 focus:border-yellow-500  focus:ring-2 focus:ring-yellow-500 h-32 text-base outline-none text-gray-900 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
             />
