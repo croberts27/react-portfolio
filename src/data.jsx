@@ -1,52 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Legend Smith",
+    subtitle: "Forge Legends with LegendSmith: Where Characters Come to Life!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "LegendSmith uses your choices and top-notch AI to generate amazing characters. Whether you're a gamer looking for a character to sink your teeth into, or a writer searching for a great story prompt, LegendSmith is here to kick-start your imagination.",
+    image: "./legend-smith.png",
+    link: "https://legendsmith-77384eb64fff.herokuapp.com/login",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "J.A.T.E.",
+    subtitle: "Text Editor",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Downloadable text editor application for general note taking.",
+    image: "./jate.PNG",
+    link: "https://text-editor-pwa-crit-dd99cc88e911.herokuapp.com/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Recyculator",
+    subtitle: "Your Guide to Eco-Friendly Recycling Solutions",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Recyculator is a website that provides information to users on how to dispose of waste items in the most environmentally sustainable way, while providing them the location of their nearest recycling center.",
+    image: "./recyculator-main.png",
+    link: "https://croberts27.github.io/recyculator/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Password Generator",
+    subtitle: "Random Password Generator",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "This app can be used to randomly generate a secure password for any use!",
+    image: "./psswrd-generator.png",
+    link: "https://croberts27.github.io/password-generator-hw-3/",
   },
 ];
 
