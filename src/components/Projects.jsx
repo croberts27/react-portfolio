@@ -11,11 +11,11 @@ function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Projects & Apps
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto text-white font-semibold leading-relaxed text-base">
             Below are a few links to past projects and applications I have built. Please enjoy!
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 ">
           {projects.map((project) => (
             <a
               href={project.link}
