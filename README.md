@@ -7,6 +7,7 @@ This project serves as a portfolio of all my coding projects. This portfolio is 
 ## Table of Contents
 
 - [Installation](#installation)
+- [Screenshot](#screenshot)
 - [Credits](#credits)
 - [License](#license)
 
@@ -17,9 +18,8 @@ This project serves as a portfolio of all my coding projects. This portfolio is 
 - `npm install -D tailwindcss`
   - `npx tailwindcss init`
 
-## Usage
-
-Running 'node index' in your terminal will start the application and prompt you with questions for you to provide input
+## Screenshot
+![React Portfolio](public/react-portoflio.PNG)
 
 ## Credits
 
