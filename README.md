@@ -4,6 +4,8 @@
 
 This project serves as a portfolio of all my coding projects. This portfolio is created with React.
 
+The link to my deployed application can be found here: https://64bf40eb5237f716b0a0cca8--admirable-khapse-8400bb.netlify.app/
+
 ## Table of Contents
 
 - [Installation](#installation)
