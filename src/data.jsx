@@ -31,6 +31,14 @@ export const projects = [
     image: "./psswrd-generator.png",
     link: "https://croberts27.github.io/password-generator-hw-3/",
   },
+  {
+    title: "untitled.",
+    subtitle: "An social e-commerce online art gallery",
+    description:
+      "A platform for artists to find inspiration and share their work",
+    image: "./untitled.PNG",
+    link: "https://untitled-art-app-b560d4f5fa59.herokuapp.com/",
+  },
 ];
 
 export const skills = [
