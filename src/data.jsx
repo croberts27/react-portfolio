@@ -52,20 +52,20 @@ export const skills = [
 
 export const blogs = [
   {
-    title: "Medium Article",
-    subtitle: "Utilizing Backend Code to Render Data on the Frontend",
+    title: "Utilizing Backend Code to Render Data on the Frontend",
+    subtitle: "Medium Article",
     image: "./medium.png",
     link: "https://medium.com/@calvinroberts1998/utilizing-backend-code-to-render-data-on-the-frontend-3ddf5f9aa861",
   },
   {
-    title: "Medium Article",
-    subtitle: "Implementing PayPal in React App",
+    title: "Implementing PayPal in React App",
+    subtitle: "Medium Article",
     image: "./medium.png",
     link: "https://medium.com/@calvinroberts1998/implementing-paypal-in-react-app-5c27e885777b",
   },
   {
-    title: "Medium Article",
-    subtitle: "Learning A New Technology: Server-side APIs",
+    title: "Learning A New Technology: Server-side APIs",
+    subtitle: "Medium Article",
     image: "./medium.png",
     link: "https://medium.com/@calvinroberts1998/learning-a-new-technology-server-side-apis-e685a9e630c6",
   },
