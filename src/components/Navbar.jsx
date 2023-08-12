@@ -7,7 +7,7 @@ function Navbar() {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
-            Calvin Roberts
+            Home
           </a>
         </a>
 
@@ -18,12 +18,16 @@ function Navbar() {
           <a href="#projects" className="mr-5 text-white hover:text-white">
             Portfolio
           </a>
+          <a href="#blogs" className="mr-5 text-white hover:text-white">
+            Blog Posts
+          </a>
           <a href="#skills" className="mr-5 text-white hover:text-white">
             Skills
           </a>
           <a href="#contact" className="mr-5 text-white hover:text-white">
             Contact Me
           </a>
+          
         </nav>
         {/* <a
           href="#contact"
