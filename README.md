@@ -4,7 +4,7 @@
 
 This project serves as a portfolio of all my coding projects. This portfolio is created with React.
 
-The link to my deployed application can be found here: [portfolio](https://64cbfcac4823c2000810ae46--calvinrobertsportfolio.netlify.app/)
+The link to my deployed application can be found here: [portfolio](https://calvinrobertsportfolio.netlify.app/)
 
 ## Table of Contents
 
@@ -21,6 +21,7 @@ The link to my deployed application can be found here: [portfolio](https://64cbf
   - `npx tailwindcss init`
 
 ## Screenshot
+
 ![React Portfolio](public/react-portoflio.PNG)
 
 ## Credits

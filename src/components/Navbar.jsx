@@ -24,7 +24,7 @@ function Navbar() {
           <a href="#skills" className="mr-5 text-white hover:text-white">
             Skills
           </a>
-          <a href="#contact" className="mr-5 text-white hover:text-white">
+          <a href="#footer" className="mr-5 text-white hover:text-white">
             Contact Me
           </a>
           
