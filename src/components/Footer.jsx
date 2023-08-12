@@ -18,7 +18,8 @@ function Footer() {
             </li>
             <li>
               <a
-                href="www.linkedin.com/in/calvin-mroberts"
+                href="https://linkedin.com/in/calvin-mroberts"
+                target="_blank"
                 className="mr-4 hover:underline md:mr-6 hover:text-yellow-300 text-gray-900"
               >
                 LinkedIn
