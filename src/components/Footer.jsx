@@ -11,7 +11,7 @@ function Footer() {
               <a
                 href="https://github.com/croberts27/"
                 target="_blank"
-                className="mr-4 hover:underline hover:text-yellow bg-green text-gray-900 md:mr-6 "
+                className="mr-4 hover:underline hover:text-yellow  text-gray-900 md:mr-6 "
               >
                 Github
               </a>
@@ -20,7 +20,7 @@ function Footer() {
               <a
                 href="https://linkedin.com/in/calvin-mroberts"
                 target="_blank"
-                className="mr-4 hover:underline md:mr-6 hover:text-yellow bg-green text-gray-900"
+                className="mr-4 hover:underline md:mr-6 hover:text-yellow  text-gray-900"
               >
                 LinkedIn
               </a>
@@ -29,7 +29,7 @@ function Footer() {
               <a
                 href="mailto:calvin.matsonroberts@outlook.com"
                 target="_blank"
-                className="mr-4 hover:underline hover:text-yellow bg-green text-gray-900 md:mr-6 "
+                className="mr-4 hover:underline hover:text-yellow  text-gray-900 md:mr-6 "
               >
                 Email
               </a>
