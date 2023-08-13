@@ -7,27 +7,41 @@ function Navbar() {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
-            Home
+            <img className="h-20 w-22 pb-3 mb-2 rounded-sm" src="favicon.ico" />
           </a>
         </a>
 
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-yellow-500	flex flex-wrap items-center text-base justify-center">
-          <a href="#about" className="mr-5 text-white hover:text-white">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-yellow	flex flex-wrap items-center text-lg justify-center">
+          <a
+            href="#about"
+            className="mr-5 text-white rounded-md hover:bg-green hover:text-yellow"
+          >
             About Me
           </a>
-          <a href="#projects" className="mr-5 text-white hover:text-white">
+          <a
+            href="#projects"
+            className="mr-5 text-white rounded-md hover:bg-green hover:text-yellow"
+          >
             Portfolio
           </a>
-          <a href="#blogs" className="mr-5 text-white hover:text-white">
+          <a
+            href="#blogs"
+            className="mr-5 text-white rounded-md hover:bg-green hover:text-yellow"
+          >
             Blog Posts
           </a>
-          <a href="#skills" className="mr-5 text-white hover:text-white">
+          <a
+            href="#skills"
+            className="mr-5 text-white rounded-md hover:bg-green hover:text-yellow"
+          >
             Skills
           </a>
-          <a href="#footer" className="mr-5 text-white hover:text-white">
+          <a
+            href="#footer"
+            className="mr-5 text-white rounded-md hover:bg-green hover:text-yellow"
+          >
             Contact Me
           </a>
-          
         </nav>
         {/* <a
           href="#contact"
