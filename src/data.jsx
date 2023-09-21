@@ -39,6 +39,14 @@ export const projects = [
     image: "./untitled.PNG",
     link: "https://untitled-art-app-b560d4f5fa59.herokuapp.com/",
   },
+  {
+    title: "TCI Housing",
+    subtitle: "Where Hospitality Meets Sporting Ambitions.",
+    description:
+      "Webpage for TCI Housing so clients can find information on sporting events and contact for assistance in booking housing for their event.",
+    image: "./tci-housing-logo.jpg",
+    link: "https://tcihousing.com",
+  },
 ];
 
 export const skills = [
@@ -48,6 +56,9 @@ export const skills = [
   "Node",
   "GraphQL",
   "MongoDB",
+  "WordPress",
+  "TypeScript",
+  "Python",
 ];
 
 export const blogs = [
