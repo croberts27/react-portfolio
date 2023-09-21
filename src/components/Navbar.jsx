@@ -1,4 +1,3 @@
-// Navbar.jsx
 import { Link } from "react-router-dom"; // Import Link from React Router
 import React from "react";
 
