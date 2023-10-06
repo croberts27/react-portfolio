@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -10,20 +10,44 @@ import Blogs from "./components/Blog";
 function App() {
   return (
     <Router>
-      {" "}
       {/* Wrap entire app with BrowserRouter */}
       <div>
         <Navbar />
-        <Switch>
-          {" "}
+        <Routes>
           {/* Use Switch to render only the first matching route */}
-          <Route path="/about" component={About} />{" "}
+          <Route
+            target="_blank"
+            rel="noopener noreferrer"
+            path="/about"
+            element={About}
+          />
           {/* Define a route for the About page */}
-          <Route path="/projects" component={Projects} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/blogs" component={Blogs} />
-          <Route path="/" component={About} /> {/* Default homepage */}
-        </Switch>
+          <Route
+            target="_blank"
+            rel="noopener noreferrer"
+            path="/projects"
+            element={Projects}
+          />
+          <Route
+            target="_blank"
+            rel="noopener noreferrer"
+            path="/skills"
+            element={Skills}
+          />
+          <Route
+            target="_blank"
+            rel="noopener noreferrer"
+            path="/blogs"
+            element={Blogs}
+          />
+          <Route
+            target="_blank"
+            rel="noopener noreferrer"
+            path="/"
+            element={About}
+          />{" "}
+          {/* Default homepage */}
+        </Routes>
         <Footer />
       </div>
     </Router>
