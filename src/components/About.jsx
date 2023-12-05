@@ -8,7 +8,7 @@ function About() {
             <br className="hidden lg:inline-block" /> About Me
           </h1>
           <p className="mb-8 leading-relaxed text-justify ">
-            Hello! My name is Calvin Roberts, and I recently graduated from the
+            Hello! My name is Calvin Matson-Roberts, and I recently graduated from the
             Columbia School of Engineering Full Stack Web Development Boot Camp.
             Currently, I am pursuing a career in Web Development, as well as
             exploring the many interests this industry has to offer. Please,
